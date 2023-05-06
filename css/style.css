@@ -1,0 +1,172 @@
+
+/* container  */
+
+
+/* ====display  */
+.nav-div{
+  display: flex;
+  align-items: center;
+  
+}
+.menu{
+  display: flex;
+}
+.list-about{
+  display: flex;
+}
+.div-hero{
+  display: flex;
+}
+/* section---- */
+.section-about{
+  padding: 120px 0;
+}
+
+.section-hero{
+  
+  padding-bottom: 208px;
+  background-color: #555555;
+}
+
+/* nav  */
+.header{
+}
+
+.menu{
+  margin-left: 124px;
+}
+.menu-item{
+
+}
+.menu-item+.menu-item{
+  margin-left: 30px;
+}
+
+
+
+.menu-link,
+.contact {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--hover-color);
+}
+.contact {
+  margin-left: auto;
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+.contact:hover,
+.contact:focus {
+  color: var(--hover-color);
+}
+
+/* ======social-link */
+.social{
+  width: 100px;
+  display: flex;
+
+}
+.social-link,.address-link{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+.social-link:hover,
+.social-link:focus,
+.address-link:hover,
+.address-link:focus {
+  color: var(--hover-color);
+}
+/* ========heading-title */
+.heading {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+.subject-light{
+    color: #303030;
+}
+/* ===========hero-title */
+.title-hero {
+  margin-bottom: 20px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.subtitle-hero{
+  margin-bottom: 144px;
+}
+/* ===========subtitle */
+.subtitle{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.66;
+letter-spacing: 0.02em;
+color: #9DA4BD;
+}
+.team-name{
+    color: #303030;
+}
+/* ==========title  */
+.caption{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.16;
+letter-spacing: 0.05em;
+color: #303030;
+}
+.caption-dark{
+    color: #ffffff;
+}
+/* ===========text  */
+.text{
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.85;
+letter-spacing: 0.02em;
+color: #555555;
+}
+.text-about{
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.35;
+letter-spacing: 0.02em;
+color: #FF6C00;
+}
+/* ======achive */
+.text-achive{
+    font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.35;
+letter-spacing: 0.05em;
+color: #303030;
+}
+.text-subtitle{
+    font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+color: #303030;
+}
