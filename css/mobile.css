@@ -377,6 +377,66 @@ color: var(--hover-orange);
 .gallery-item+.gallery-item{
   margin-top: 30px;
 }
+
+/**
+  |============================
+  | contacts
+  |============================
+*/
+.section-contact{
+  background-color: #191c26;
+}
+
+.booking-wrap{
+  padding: 84px 0;
+}
+.booking-form{
+
+}
+
+.booking-label{
+  position: relative;
+}
+.booking-text{
+  position: absolute;
+  padding: 4px;
+  top: 50%;
+  left: 4px;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+  color: rgba(157, 164, 189, 0.4);
+  background-color: #191c26;
+
+  transform: translate(0 , -50%);
+  transition: top 500ms linear, color 500ms linear;
+}
+.booking-label:focus-within .booking-text{
+  top: -50%;
+}
+
+.booking-input:focus ~ .booking-text{
+  top: -50%;
+  color: #ffffff;
+}
+.booking-input:not(:placeholder-shown) ~ .booking-text{
+  top: -50%;
+  color: #ffffff;
+}
+.booking-input{
+  padding:0 8px;
+  margin-bottom: 44px;
+  width: 100%;
+  height: 36px;
+  color: #F7F7F7;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--color-white);
+}
+.booking-input:focus{
+stroke: none;
+}
 /**
   |============================
   | button
