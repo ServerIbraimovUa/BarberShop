@@ -53,11 +53,34 @@
           <a class="contact link" href="tel:+380441111111">+38 044 111 11 11</a>
           <button class="btn" type="button">Online-booking</button>
         </div>
-        <button class="mobile-menu">
+        <button class="mobile-menu js-open-menu">
           <svg class="icon-menu" width="24" height="16">
             <use href="./images/icons.svg#icon-menu"></use>
           </svg>
         </button>
+        <div class="mobile-wraper js-menu-container">
+          <button class="btn-close js-close-menu" type="button">
+            <svg class="icon-close" width="40" height="40">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="list mobile-menu-list">
+            <li class="mobile-item"><a href="" class="link mobile-link">About</a></li>
+            <li class="mobile-item"><a href="" class="link mobile-link">Services and prices</a></li>
+            <li class="mobile-item"><a href="" class="link mobile-link">Barbers</a></li>
+            <li class="mobile-item"><a href="" class="link mobile-link">Contacts</a></li>
+          </ul>
+          <ul class="list mobile-menu-list">
+            <li class="mobile-item"><a href="tel:+380441111111" class="link mobile-link">+38 044 111 11 11</a></li>
+            <li class="mobile-item"><button class="btn btn-mobile">Online-booking</button></li>
+          </ul>
+          <ul class="list mobile-menu-list mobile-menu-social">
+            <li><span class="span-social"></span></li>
+            <li class="mobile-item"><a href="" class="link mobile-link mobile-link-social">Instagram</a></li>
+            <li class="mobile-item"><a href=""  class="link mobile-link mobile-link-social">YouTube</a></li>
+          </ul>
+        </div>
+        </div>
       </div>
     </header>
 
@@ -416,30 +439,34 @@
                 <input class="booking-input" type="tel" placeholder=" ">
                 <span class="booking-text">Phone</span>
               </label>
+              <label class="booking-label">
+                <textarea name="text" rows="10"></textarea>
+                <span class="booking-text">Phone</span>
+              </label>
             </form>
           </div>
           <address class="address">
             <h2 class="caption-dark caption">Contacts</h2>
-            <ul class="list">
-              <li>
-                <a class="address-link link" href=""
+            <ul class="list address-list">
+              <li class="address-item">
+                <a class="address-link address-link--bold link" href=""
                   >st. Vasylkivska, 7A Kiev, 08132
                 </a>
               </li>
-              <li>
+              <li class="address-item">
                 <a class="address-link link" href="tel:+380441111111"
                   >+38 044 111 11 11</a
                 >
               </li>
-              <li>
+              <li class="address-item">
                 <a class="address-link link" href="mailto:barbershop@email.com"
                   >barbershop@email.com</a
                 >
               </li>
             </ul>
+            <p class="subject-white heading">Working hours</p>
+            <h3 class="subtitle-contacts">Every day from 9:00 to 22:00</h3>
           </address>
-          <p class="subject-dark heading">Working hours</p>
-          <h3 class="subtitle">Every day from 9:00 to 22:00</h3>
         </div>
       </section>
     </main>
@@ -453,5 +480,7 @@
         </ul>
       </div>
     </footer>
+
+    <script src="./js/mobile-modal.js"></script>
   </body>
 </html>
