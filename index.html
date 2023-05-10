@@ -51,7 +51,7 @@
         </nav>
         <div class="contact-wraper">
           <a class="contact link" href="tel:+380441111111">+38 044 111 11 11</a>
-          <button class="btn" type="button">Online-booking</button>
+          <button class="btn btn-dark" type="button">Online-booking</button>
         </div>
         <button class="mobile-menu js-open-menu">
           <svg class="icon-menu" width="24" height="16">
@@ -89,7 +89,7 @@
       <section class="section-hero">
         <div class="container div-hero">
           <div class="social">
-            <ul class="list">
+            <ul class="list list-social">
               <li>
                 <a
                   class="social-link link"
@@ -127,41 +127,51 @@
       </section>
       <!-- about -->
       <section class="section-about">
-        <div class="container">
+        <div class="container container-about">
           <h2 hidden>about</h2>
-          <ul class="list list-about">
-            <li>
-              <img
-                src="./images/img-1.jpg"
-                alt="img-1"
-                width="270"
-                height="445"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/img-2.jpg"
-                alt="img-2"
-                width="270"
-                height="445"
-              />
-            </li>
-          </ul>
-          <p class="subject-light heading">About</p>
-          <h2 class="caption-light caption">Best Barbershop in your city</h2>
-              <p class="subtitle">
-                If you want to add more confidence to your image, you should
-                visitus.
-              </p>
-              <p class="text">
-                We are a team that never stops at what has been achieved and are
-                thirsty for changes. And when you fall into the hands of our
-                master, you will never be the same again. We are a team that is
-                always "on the same wave" with clients. Therefore, we are always
-                ready to improve everyone who comes to us!
-              </p>
-
-          <button class="btn btn-light" type="button">Online-booking</button>
+          <div class="wraper-about-img">
+            <ul class="list list-about">
+              <li>
+                <picture>
+                  <source media="(min-width: 1158px)" srcset="./images/about/img-1_desk@1x.jpg 1x,./images/about/img-1_desk@2x.jpg 2x ">
+                  <source media="(min-width: 768px)" srcset="./images/about/img-1_tab@1x.jpg 1x,./images/about/img-1_tab@2x.jpg 2x  ">
+                  <img
+                  srcset="./images/about/img-1_tab2x.jpg 2x"
+                  src="./images/about/img-1_tab@1x.jpg"
+                  alt="img-1"
+                />
+                </picture>
+              </li>
+              <li>
+                <picture>
+                  <source media="(min-width: 1158px)" srcset="./images/about/img-2_desk@1x.jpg 1x,./images/about/img-2_desk@2x.jpg 2x ">
+                  <source media="(min-width: 768px)" srcset="./images/about/img-2_tab@1x.jpg 1x,./images/about/img-2_tab@2x.jpg 2x  ">
+                  <img
+                  srcset="./images/about/img-2_tab2x.jpg 2x"
+                  src="./images/about/img-2_tab@1x.jpg"
+                  alt="img-2"
+                />
+                </picture>
+              </li>
+            </ul>
+          </div>
+         <div class="wraper-about-text">
+            <p class="subject-light heading">About</p>
+            <h2 class="caption-light caption">Best Barbershop in your city</h2>
+                <p class="subtitle">
+                  If you want to add more confidence to your image, you should
+                  visitus.
+                </p>
+                <p class="text">
+                  We are a team that never stops at what has been achieved and are
+                  thirsty for changes. And when you fall into the hands of our
+                  master, you will never be the same again. We are a team that is
+                  always "on the same wave" with clients. Therefore, we are always
+                  ready to improve everyone who comes to us!
+                </p>
+  
+            <button class="btn btn-light" type="button">Online-booking</button>
+         </div>
         </div>
       </section>
       <!-- prices -->
@@ -437,10 +447,6 @@
               </label>
               <label class="booking-label">
                 <input class="booking-input" type="tel" placeholder=" ">
-                <span class="booking-text">Phone</span>
-              </label>
-              <label class="booking-label">
-                <textarea name="text" rows="10"></textarea>
                 <span class="booking-text">Phone</span>
               </label>
             </form>
