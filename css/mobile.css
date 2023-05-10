@@ -396,7 +396,7 @@ box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
   background-color: #F7F7F7;
 }
 .list-team{
-
+  margin-top: 44px;
 }
 .team-item{
   margin-bottom: 64px;
@@ -462,8 +462,11 @@ color: var(--hover-orange);
 .section-gallery{
   padding: 84px 0;
 }
-.gallery-item+.gallery-item{
-  margin-top: 30px;
+.gallery-list{
+  margin-top: 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 /**

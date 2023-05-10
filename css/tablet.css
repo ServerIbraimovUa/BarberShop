@@ -193,3 +193,18 @@
       align-items: center;
   } 
 }
+
+/**
+  |============================
+  | galery
+  |============================
+*/
+@media only screen and (min-width: 768px) {
+   .gallery-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .gallery-item{
+    margin: 0;
+  }
+}

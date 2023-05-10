@@ -1,0 +1,86 @@
+@media only screen and (min-width: 1200px) {
+   .container{
+    max-width: 1200px;
+  }
+}
+/**
+  |============================
+  | nav
+  |============================
+*/
+@media only screen and (min-width: 1200px) {
+  .icon-logo {
+      margin-right: 124px;
+    } 
+  .contact-wraper{
+      display: flex;
+      align-items: center;
+      gap: 40px;
+  } 
+  .menu {
+    gap: 30px;
+  }
+}
+
+
+/**
+  |============================
+  | hero
+  |============================
+*/
+@media only screen and (min-width: 1200px) {
+    .box-hero {
+
+      background-image: url(../images/bg/desk-bg.jpg);
+    }
+
+    .subtitle-hero{
+        max-width: 444px;
+      }
+      .title-hero{
+        font-size: 72px;
+line-height: 1.18;
+      }
+}
+
+/**
+  |============================
+  | about
+  |============================
+*/
+@media only screen and (min-width: 1200px) {
+  .list-about {
+    flex-direction: row;
+  }
+}
+
+/**
+  |============================
+  | benefit
+  |============================
+*/
+
+@media only screen and (min-width: 1200px) {
+    .benefit-container {
+        flex-direction: row;
+        column-gap: 130px;
+    }
+}
+
+/**
+  |============================
+  | team
+  |============================
+*/
+@media only screen and (min-width: 1200px){
+
+.list-team {
+flex-direction: row;
+gap: 30px;
+}
+.team-item {
+    margin-bottom:0;
+}
+}
+
+    

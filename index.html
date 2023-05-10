@@ -50,7 +50,7 @@
           </ul>
         </nav>
         <div class="contact-wraper">
-          <a class="contact link" href="tel:+380441111111">+38 044 111 11 11</a>
+          <a class="contact menu-link link" href="tel:+380441111111">+38 044 111 11 11</a>
           <button class="btn btn-dark" type="button">Online-booking</button>
         </div>
         <button class="mobile-menu js-open-menu">
@@ -403,34 +403,45 @@
                 srcset="./images/gallery/img-1_mob@2x.jpg 2x"
                 src="./images/gallery/img-1_mob@1x.jpg"
                 alt="img-1"
-                width="418"
-                height="360"
+                loading="lazy"
               />
               </picture>
             </li>
             <li class="gallery-item">
-              <img
-                src="./images/gallery/img-2.jpg"
+              <picture>
+                <source media="(min-width: 1158px)" srcset="./images/gallery/img-2.jpg 1x , ./images/gallery/img-2_desk@2x.jpg 2x  ">
+                <source media="(min-width: 768px)" srcset="./images/gallery/img-2_tab@1x.jpg 1x , ./images/gallery/img-2_tab@2x.jpg 2x  ">
+                <img
+                srcset="./images/gallery/img-2_mob@2x.jpg 2x"
+                src="./images/gallery/img-2_mob@1x.jpg"
                 alt="img-2"
-                width="270"
-                height="360"
+                loading="lazy"
               />
+              </picture>
             </li>
             <li class="gallery-item">
-              <img
-                src="./images/gallery/img-3.jpg"
+              <picture>
+                <source media="(min-width: 1158px)" srcset="./images/gallery/img-3.jpg 1x , ./images/gallery/img-3_desk@2x.jpg 2x  ">
+                <source media="(min-width: 768px)" srcset="./images/gallery/img-3_tab@1x.jpg 1x , ./images/gallery/img-3_tab@2x.jpg 2x  ">
+                <img
+                srcset="./images/gallery/img-3_mob@2x.jpg 2x"
+                src="./images/gallery/img-3_mob@1x.jpg"
                 alt="img-3"
-                width="270"
-                height="360"
+                loading="lazy"
               />
+              </picture>
             </li>
             <li class="gallery-item">
-              <img
-                src="./images/gallery/img-4.jpg"
+              <picture>
+                <source media="(min-width: 1158px)" srcset="./images/gallery/img-4.jpg 1x , ./images/gallery/img-4_desk@2x.jpg 2x  ">
+                <source media="(min-width: 768px)" srcset="./images/gallery/img-4_tab@1x.jpg 1x , ./images/gallery/img-4_tab@2x.jpg 2x  ">
+                <img
+                srcset="./images/gallery/img-4_mob@2x.jpg 2x"
+                src="./images/gallery/img-4_mob@1x.jpg"
                 alt="img-4"
-                width="270"
-                height="360"
+                loading="lazy"
               />
+              </picture>
             </li>
           </ul>
         </div>
