@@ -33,6 +33,13 @@
 
       background-image: url(../images/bg/desk-bg.jpg);
     }
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      .box-hero {
+
+        background-image: url(../images/bg/desk-bg@2x.jpg);
+      }
+  
+    }
 
     .subtitle-hero{
         max-width: 444px;
@@ -53,7 +60,35 @@ line-height: 1.18;
     flex-direction: row;
   }
 }
-
+/**
+  |============================
+  | prices
+  |============================
+*/
+@media only screen and (min-width: 1200px) {
+  .section-prices{
+    background-image: url(../images/prices/bg-img_desk@1x.png);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .section-prices{
+      background-image: url(../images/prices/bg-img_desk@2x.png);
+    }
+  }
+   .prices-wraper{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    background: none;
+  }
+  .list-prices{
+    padding: 30px 20px;
+    flex-basis: calc((100% - 30px) / 2);
+    background: linear-gradient(#090b13, rgba(9, 11, 19, 0.3));
+  }
+  
+  
+}
 /**
   |============================
   | benefit
@@ -64,6 +99,9 @@ line-height: 1.18;
     .benefit-container {
         flex-direction: row;
         column-gap: 130px;
+    }
+    .benefit-container .caption{
+      width: 430px;
     }
 }
 
@@ -81,6 +119,33 @@ gap: 30px;
 .team-item {
     margin-bottom:0;
 }
+.caption{
+  font-size: 42px;
+
+}
+
+}
+@media only screen and (min-width: 1200px) {
+  .section-contact{
+    padding: 120px 0;
+    background-image: url(../images/contact/bg-img_desk@2x.png);
+    background-repeat: no-repeat;
+    background-size:cover ; 
+  background-position: center; }
+  .container-contacts {
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+  }
+  .booking-wrap{
+    padding-left: 100px;
+    width: 50%;
+
+  }
+  .address{
+    padding-left: 100px;
+    width: 50%;
+  }
 }
 
     
