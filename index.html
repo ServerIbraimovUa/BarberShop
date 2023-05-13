@@ -460,29 +460,45 @@
                 <input class="booking-input" type="tel" placeholder=" ">
                 <span class="booking-text">Phone</span>
               </label>
+              <label class="booking-label textarea">
+                <textarea class="booking-textarea" name="message"  placeholder=" "></textarea>
+                <span class="booking-text">Message</span>
+              </label>
+              <button class="btn booking-btn" type="submit">Send</button>
             </form>
           </div>
           <address class="address">
-            <h2 class="caption-dark caption">Contacts</h2>
-            <ul class="list address-list">
-              <li class="address-item">
-                <a class="address-link address-link--bold link" href=""
-                  >st. Vasylkivska,7A <br> Kiev, 08132
+            <div >
+              <h2 class="caption-dark caption">Contacts</h2>
+              <ul class="list address-list">
+                <li class="address-item">
+                  <a class="address-link address-link--bold link" href=""
+                    ><svg class="contact-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-map-pin"></use>
+                    </svg> st. Vasylkivska,7A <br> Kiev, 08132
+                  </a>
+                </li>
+                <li class="address-item">
+                  <a class="address-link link" href="tel:+380441111111"
+                    >
+                    <svg class="contact-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-phone"></use>
+                    </svg> +38 044 111 11 11</a
+                  >
+                </li>
+                <li class="address-item">
+                  <a class="address-link link" href="mailto:barbershop@email.com" >
+                    <svg class="contact-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-mail"></use>
+                    </svg> barbershop@email.com
                 </a>
-              </li>
-              <li class="address-item">
-                <a class="address-link link" href="tel:+380441111111"
-                  >+38 044 111 11 11</a
-                >
-              </li>
-              <li class="address-item">
-                <a class="address-link link" href="mailto:barbershop@email.com"
-                  >barbershop@email.com</a
-                >
-              </li>
-            </ul>
-            <p class="subject-white heading">Working hours</p>
-            <h3 class="subtitle-contacts">Every day from 9:00 to 22:00</h3>
+                </li>
+              </ul>
+            </div>
+           <div>
+              <p class="subject-white heading">Working hours</p>
+              <h3 class="subtitle-contacts">Every day from 9:00 to 22:00</h3>
+           </div>
           </address>
         </div>
       </section>
